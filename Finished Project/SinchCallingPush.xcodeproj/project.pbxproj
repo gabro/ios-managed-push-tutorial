@@ -16,6 +16,7 @@
 		4E21A260946E48CF8A38A32B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1634061ACE4E66A099A9B8F /* AppDelegate.m */; };
 		5136F7329DBA3B4BCDE89986 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECFAE02C10E21DA61530851 /* main.m */; };
 		6A2DA68CCA80430C5BFF19FC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 488332493A4DC931C8821A21 /* AudioToolbox.framework */; };
+		6A6D14541DD9D31800BE68F4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A6D14531DD9D31800BE68F4 /* CoreGraphics.framework */; };
 		6BFDC3EC34547FFE79C4C36A /* PaddedTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1632DAEF1FC408FE3C775D /* PaddedTextField.m */; };
 		8D60176F188FE09E2B3B51C6 /* CallViewController+UI.m in Sources */ = {isa = PBXBuildFile; fileRef = 882097CDC515C7CC625DABA8 /* CallViewController+UI.m */; };
 		8F2A4F4A67AECF4986A8F876 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 115773E2E62CB931CD0F3C5B /* MainViewController.m */; };
@@ -29,27 +30,28 @@
 		DAE20D1D1D5C96EA3B2DBB79 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E9D2D27572337F9F40215F /* Images.xcassets */; };
 		DE751245D35252F8C3502B49 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F23376F7CADC4842057C5B4 /* Foundation.framework */; };
 		E324EA3C50B0A7A2F0933C4C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BBFAE82273F77D0F586A0EA /* AVFoundation.framework */; };
-		F732068EE55FA5A86D2AD922 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 220BCF5A6D3B8325282DB22B /* libPods.a */; };
+		EAEC57C69849A16204B5F209 /* libPods-SinchCallingPush.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1C86AC509EE2F44E3900404 /* libPods-SinchCallingPush.a */; };
 		FF2504BBFF5164B9DC92898B /* MainViewController+UI.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA9630DEAA974E2E4D03E92 /* MainViewController+UI.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		059CCB90AA706589E2FCC5D0 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		10CA4F56EF60932E00DBFF30 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		115773E2E62CB931CD0F3C5B /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = SinchCallingPush/MainViewController.m; sourceTree = "<group>"; };
 		18E9D2D27572337F9F40215F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = SinchCallingPush/Images.xcassets; sourceTree = "<group>"; };
 		1BA9630DEAA974E2E4D03E92 /* MainViewController+UI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "MainViewController+UI.m"; path = "SinchCallingPush/MainViewController+UI.m"; sourceTree = "<group>"; };
 		1D92B17855D2962B266E9A57 /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = text; name = Prefix.pch; path = SinchCallingPush/Prefix.pch; sourceTree = "<group>"; };
-		220BCF5A6D3B8325282DB22B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C4A054213733DFC34AC9467 /* SINUIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SINUIViewController.h; path = SinchCallingPush/SINUIViewController.h; sourceTree = "<group>"; };
+		2C69CE4F0E44A1BC11CA83A1 /* Pods-SinchCallingPush.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SinchCallingPush.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SinchCallingPush/Pods-SinchCallingPush.debug.xcconfig"; sourceTree = "<group>"; };
 		35576164AF4667AA059FE10B /* CallViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CallViewController.m; path = SinchCallingPush/CallViewController.m; sourceTree = "<group>"; };
 		374A027BDC8FB37D5A1A7C55 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = SinchCallingPush/LoginViewController.h; sourceTree = "<group>"; };
+		3F8E799F852BC2E4731CA0E9 /* Pods-SinchCallingPush.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SinchCallingPush.release.xcconfig"; path = "Pods/Target Support Files/Pods-SinchCallingPush/Pods-SinchCallingPush.release.xcconfig"; sourceTree = "<group>"; };
 		434B585624B52A1A17D16F19 /* SINUIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SINUIViewController.m; path = SinchCallingPush/SINUIViewController.m; sourceTree = "<group>"; };
 		488332493A4DC931C8821A21 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		4ECFAE02C10E21DA61530851 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SinchCallingPush/main.m; sourceTree = "<group>"; };
 		5F23376F7CADC4842057C5B4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6086F9913FDE28022BE45F32 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = SinchCallingPush/MainViewController.h; sourceTree = "<group>"; };
 		649AB71076EC4C1F8CE24399 /* Sinch.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Sinch.xcassets; path = SinchCallingPush/Sinch.xcassets; sourceTree = "<group>"; };
+		6A6D14531DD9D31800BE68F4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6A6D14551DD9D5E700BE68F4 /* SinchCallingPush.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = SinchCallingPush.entitlements; path = SinchCallingPush/SinchCallingPush.entitlements; sourceTree = "<group>"; };
 		6BBFAE82273F77D0F586A0EA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		6C3B91F542CD95AE74269887 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = SinchCallingPush/Info.plist; sourceTree = "<group>"; };
 		6F6B08D548BC4C72430E978B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = SinchCallingPush/AppDelegate.h; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 		B09D7C961B1850FF001DE846 /* Sinch.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sinch.framework; sourceTree = "<group>"; };
 		C39BFB7EC99DCF30B07E7E74 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		CD57187E64307A86FFEF341C /* PaddedTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PaddedTextField.h; path = SinchCallingPush/PaddedTextField.h; sourceTree = "<group>"; };
+		D1C86AC509EE2F44E3900404 /* libPods-SinchCallingPush.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SinchCallingPush.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1634061ACE4E66A099A9B8F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = SinchCallingPush/AppDelegate.m; sourceTree = "<group>"; };
 		E9991305614F541FA2B071ED /* ringback.wav */ = {isa = PBXFileReference; lastKnownFileType = text; name = ringback.wav; path = SinchCallingPush/ringback.wav; sourceTree = "<group>"; };
 		EC1632DAEF1FC408FE3C775D /* PaddedTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = PaddedTextField.m; path = SinchCallingPush/PaddedTextField.m; sourceTree = "<group>"; };
@@ -77,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A6D14541DD9D31800BE68F4 /* CoreGraphics.framework in Frameworks */,
 				E324EA3C50B0A7A2F0933C4C /* AVFoundation.framework in Frameworks */,
 				6A2DA68CCA80430C5BFF19FC /* AudioToolbox.framework in Frameworks */,
 				DE751245D35252F8C3502B49 /* Foundation.framework in Frameworks */,
@@ -85,7 +89,7 @@
 				A21B5D5C14D24DFB5DD1AD33 /* SystemConfiguration.framework in Frameworks */,
 				B09D7C971B1850FF001DE846 /* Sinch.framework in Frameworks */,
 				9E093AD482E46EA889575E6F /* UIKit.framework in Frameworks */,
-				F732068EE55FA5A86D2AD922 /* libPods.a in Frameworks */,
+				EAEC57C69849A16204B5F209 /* libPods-SinchCallingPush.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,6 +122,7 @@
 		4F76EE66FA00597D281BAD26 /* SinchCallingPush */ = {
 			isa = PBXGroup;
 			children = (
+				6A6D14551DD9D5E700BE68F4 /* SinchCallingPush.entitlements */,
 				6F6B08D548BC4C72430E978B /* AppDelegate.h */,
 				E1634061ACE4E66A099A9B8F /* AppDelegate.m */,
 				71D60CBE821A9CF3890BE6A8 /* CallViewController.h */,
@@ -142,6 +147,7 @@
 		6C9093AB4F3980158ECA0091 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6A6D14531DD9D31800BE68F4 /* CoreGraphics.framework */,
 				6BBFAE82273F77D0F586A0EA /* AVFoundation.framework */,
 				488332493A4DC931C8821A21 /* AudioToolbox.framework */,
 				5F23376F7CADC4842057C5B4 /* Foundation.framework */,
@@ -150,9 +156,18 @@
 				B09D7C961B1850FF001DE846 /* Sinch.framework */,
 				C39BFB7EC99DCF30B07E7E74 /* SystemConfiguration.framework */,
 				92EC4358228138BC1D0DD1E3 /* UIKit.framework */,
-				220BCF5A6D3B8325282DB22B /* libPods.a */,
+				D1C86AC509EE2F44E3900404 /* libPods-SinchCallingPush.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E7E939BDBC3FCA4A362269C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C69CE4F0E44A1BC11CA83A1 /* Pods-SinchCallingPush.debug.xcconfig */,
+				3F8E799F852BC2E4731CA0E9 /* Pods-SinchCallingPush.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		AA756E0FCF92774DEDAE10BD = {
@@ -161,17 +176,8 @@
 				6C9093AB4F3980158ECA0091 /* Frameworks */,
 				6339C8DB27C69B7485E43198 /* Products */,
 				4F76EE66FA00597D281BAD26 /* SinchCallingPush */,
-				FA41DDFB12C3BE1C9609D6F9 /* Pods */,
+				8E7E939BDBC3FCA4A362269C /* Pods */,
 			);
-			sourceTree = "<group>";
-		};
-		FA41DDFB12C3BE1C9609D6F9 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				10CA4F56EF60932E00DBFF30 /* Pods.debug.xcconfig */,
-				059CCB90AA706589E2FCC5D0 /* Pods.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,11 +187,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4133E3536AE1A6F9D3E8F038 /* Build configuration list for PBXNativeTarget "SinchCallingPush" */;
 			buildPhases = (
-				AAF7CEE276C6B61D44D33575 /* Check Pods Manifest.lock */,
+				FD85E0517B1EA9326E2B7FEA /* [CP] Check Pods Manifest.lock */,
 				96FAF063B39F4725CC53BEEA /* Resources */,
 				72CE85628EFD5D0D9EF9B97E /* Sources */,
 				7D2D79ABA98B969BEF0EE688 /* Frameworks */,
-				04C3B14DC5DAA8842F784899 /* Copy Pods Resources */,
+				464AFDF156D9C775A2897C50 /* [CP] Embed Pods Frameworks */,
+				B336BAB6A5F8CB3F7B7068ED /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -205,7 +212,12 @@
 				BuildIndependentTargetsInParallel = YES;
 				TargetAttributes = {
 					39B5DDCAE10BBAE708E4678B = {
-						DevelopmentTeam = NJX84S5V4T;
+						DevelopmentTeam = 4RXYKW6674;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -217,6 +229,7 @@
 				en,
 			);
 			mainGroup = AA756E0FCF92774DEDAE10BD;
+			productRefGroup = 6339C8DB27C69B7485E43198 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -242,34 +255,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		04C3B14DC5DAA8842F784899 /* Copy Pods Resources */ = {
+		464AFDF156D9C775A2897C50 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SinchCallingPush/Pods-SinchCallingPush-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		AAF7CEE276C6B61D44D33575 /* Check Pods Manifest.lock */ = {
+		B336BAB6A5F8CB3F7B7068ED /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SinchCallingPush/Pods-SinchCallingPush-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD85E0517B1EA9326E2B7FEA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -296,7 +324,7 @@
 /* Begin XCBuildConfiguration section */
 		0903FD54B9A75FA8A6C5A498 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 059CCB90AA706589E2FCC5D0 /* Pods.release.xcconfig */;
+			baseConfigurationReference = 3F8E799F852BC2E4731CA0E9 /* Pods-SinchCallingPush.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -304,6 +332,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphonesimulator*]" = "iPhone Distribution: Zachary Brown (NJX84S5V4T)";
+				DEVELOPMENT_TEAM = 4RXYKW6674;
 				ENABLE_NS_ASSERTIONS = NO;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PREFIX_HEADER = "$(PRODUCT_NAME)/Prefix.pch";
@@ -311,15 +340,17 @@
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				GCC_WARN_PEDANTIC = YES;
 				INFOPLIST_FILE = "${PRODUCT_NAME}/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(SDKROOT)/System/Library/Frameworks",
 					.,
 				);
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hailadoc.hailadoc-ios";
 				PRODUCT_NAME = SinchCallingPush;
-				PROVISIONING_PROFILE = "2229f63e-42b3-47d3-a603-e03ef899f95d";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SINCH_FRAMEWORK_RELATIVE_PATH = ..;
 				WRAPPER_PREFIX = "";
 			};
@@ -346,7 +377,7 @@
 		};
 		B09EB982069D1AD5AE1A5AC8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 10CA4F56EF60932E00DBFF30 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 2C69CE4F0E44A1BC11CA83A1 /* Pods-SinchCallingPush.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -355,6 +386,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphonesimulator*]" = "iPhone Distribution: Zachary Brown (NJX84S5V4T)";
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 4RXYKW6674;
 				ENABLE_NS_ASSERTIONS = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -363,7 +395,7 @@
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				GCC_WARN_PEDANTIC = YES;
 				INFOPLIST_FILE = "${PRODUCT_NAME}/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(SDKROOT)/System/Library/Frameworks",
 					.,
@@ -371,8 +403,10 @@
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hailadoc.hailadoc-ios";
 				PRODUCT_NAME = SinchCallingPush;
-				PROVISIONING_PROFILE = "2229f63e-42b3-47d3-a603-e03ef899f95d";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SINCH_FRAMEWORK_RELATIVE_PATH = ..;
 				WRAPPER_PREFIX = "";
 			};

@@ -1,5 +1,7 @@
 platform :ios, "7.0"
 
-pod 'SinchRTC', '~> 3.5'
+target 'SinchCallingPush' do
 
+pod 'SinchRTC', '~> 3.9'
 
+end

@@ -10,7 +10,7 @@
     
   self.push = [Sinch managedPushWithAPSEnvironment:SINAPSEnvironmentAutomatic];
   self.push.delegate = self;
-  [self.push setDesiredPushTypeAutomatically];
+  [self.push setDesiredPushType:SINPushTypeVoIP];
 
   void (^onUserDidLogin)(NSString *) = ^(NSString *userId) {
       NSLog(@"onUserDidLogin");
@@ -42,8 +42,8 @@
 
 - (void)initSinchClientWithUserId:(NSString *)userId {
   if (!_client) {
-    _client = [Sinch clientWithApplicationKey:@"Application Key"
-                            applicationSecret:@"Application Secret"
+    _client = [Sinch clientWithApplicationKey:@"44075a4d-7115-43b0-9dde-608d0db080d0"
+                            applicationSecret:@"LwEU56/TtEeJthZp/oX2Dw=="
                               environmentHost:@"sandbox.sinch.com"
                                        userId:userId];
 
